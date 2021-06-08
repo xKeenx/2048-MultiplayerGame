@@ -1,0 +1,55 @@
+
+body {
+
+  background: #faf8ef;
+
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding: 30px;
+}
+
+.restartButtonDiv{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+}
+.buttonStyle {
+  background-color:#8f7a66;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  background-color: #303030;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  bottom:0;
+}
+
+.number {
+  color: #FFF;
+  font-size: 55px;
+}
+
+.multiplayer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
